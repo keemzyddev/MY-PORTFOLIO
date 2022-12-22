@@ -11,37 +11,37 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
-      demoLink: "https://google.com",
+      viewLink: "https://google.com",
       codeLink: "https://linkedIn.com",
     },
     {
       id: 2,
       src: installNode,
-      demoLink: "https://google.com",
+      viewLink: installNode,
       codeLink: "https://linkedIn.com",
     },
     {
       id: 3,
       src: navBar,
-      demoLink: "https://google.com",
+      viewLink: "https://google.com",
       codeLink: "https://linkedIn.com",
     },
     {
       id: 4,
       src: reactParallax,
-      demoLink: "https://google.com",
+      viewLink: "https://google.com",
       codeLink: "https://linkedIn.com",
     },
     {
       id: 5,
       src: reactSmooth,
-      demoLink: "https://google.com",
+      viewLink: "https://google.com",
       codeLink: "https://linkedIn.com",
     },
     {
       id: 6,
       src: reactWeather,
-      demoLink: "https://google.com",
+      viewLink: "https://google.com",
       codeLink: "https://github.com",
     },
   ];
@@ -59,7 +59,7 @@ const Portfolio = () => {
           <p className="py-6">Checkout some of my work</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-3">
-          {portfolios.map(({ id, src, demoLink, codeLink }) => (
+          {portfolios.map(({ id, src, viewLink, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -68,8 +68,8 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-4 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={demoLink} target="_blank">
-                    Demo
+                  <a href={viewLink} target="_blank">
+                    View
                   </a>
                 </button>
                 <button className="w-1/2 px-4 py-3 m-4 duration-200 hover:scale-105">
