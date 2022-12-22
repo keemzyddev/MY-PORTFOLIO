@@ -1,6 +1,6 @@
 import html from "../assets/html.png";
 import css from "../assets/css.png";
-import javaScript from "../assets/javaScript.png";
+import javaScript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
 import graphql from "../assets/graphql.png";
