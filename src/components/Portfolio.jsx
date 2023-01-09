@@ -1,30 +1,30 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+import logistics from "../assets/portfolio/logistics.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
-import navBar from "../assets/portfolio/navbar.jpg";
+import eCommerce from "../assets/portfolio/eCommerce.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import projectMgt from "../assets/portfolio/projectMgt.jpg";
+import chatWidget from "../assets/portfolio/chatWidget.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-      viewLink: "https://google.com",
-      codeLink: "https://linkedIn.com",
+      src: logistics,
+      viewLink: "https://vimeo.com/787310192/8a671a6847",
+      codeLink: "https://github.com/keemzyddev/logistic-app-landing-page",
     },
     {
       id: 2,
-      src: installNode,
-      viewLink: installNode,
-      codeLink: "https://linkedIn.com",
+      src: eCommerce,
+      viewLink: eCommerce,
+      codeLink: "https://github.com/keemzyddev/eCommerce",
     },
     {
       id: 3,
-      src: navBar,
-      viewLink: "https://google.com",
-      codeLink: "https://linkedIn.com",
+      src: installNode,
+      viewLink: installNode,
+      codeLink: "https://github.com/keemzyddev/userMgtSysyem",
     },
     {
       id: 4,
@@ -34,15 +34,15 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: reactSmooth,
-      viewLink: "https://google.com",
-      codeLink: "https://linkedIn.com",
+      src: projectMgt,
+      viewLink: projectMgt,
+      codeLink: "https://github.com/keemzyddev/projectMgtWithGraphQl",
     },
     {
       id: 6,
-      src: reactWeather,
-      viewLink: "https://google.com",
-      codeLink: "https://github.com",
+      src: chatWidget,
+      viewLink: chatWidget,
+      codeLink: "https://github.com/keemzyddev/react-chat-widget-app",
     },
   ];
 
