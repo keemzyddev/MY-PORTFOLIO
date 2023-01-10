@@ -2,7 +2,6 @@ import React from "react";
 import logistics from "../assets/portfolio/logistics.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import eCommerce from "../assets/portfolio/eCommerce.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import projectMgt from "../assets/portfolio/projectMgt.jpg";
 import chatWidget from "../assets/portfolio/chatWidget.jpg";
 
@@ -28,9 +27,9 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: reactParallax,
-      viewLink: "https://google.com",
-      codeLink: "https://linkedIn.com",
+      src: installNode,
+      viewLink: installNode,
+      codeLink: "https://github.com/keemzyddev/node-expressjs-passport-local-auth",
     },
     {
       id: 5,
