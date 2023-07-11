@@ -14,7 +14,7 @@ const Home = () => {
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I have Over 3 years of experience in developing web applications. I
-            love to work on applications using technologies like, React,
+            love to work on applications using technologies like, ReactJs, NextJs, React-Native,
             Tailwind, GraphQl, Nodejs, etc.
           </p>
           <div>
